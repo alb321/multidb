@@ -1,0 +1,10 @@
+services:
+  python:
+    container_name: multidb
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: sleep infinity
+    working_dir: /app
+    volumes:
+      - ./:/app

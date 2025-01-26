@@ -1,0 +1,14 @@
+{
+    "databases": [
+        {
+            "name": "sqlite_in_mem",
+            "type": "sqlite",
+            "connection_string": ":memory:"
+        },
+        {
+            "name": "mysql_1",
+            "type": "mysql",
+            "connection_string": "<user>,<password>,<host>,<port>,<dbname>"
+        }
+    ]
+}
